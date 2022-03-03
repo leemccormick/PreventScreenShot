@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lb8-qF-dMn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Red View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RedViewController" customModule="PreventScreenShot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIDE ME WHEN THEY TAKE PHOTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfr-jL-xGJ">
+                                <rect key="frame" x="69.5" y="464.5" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3X-cC-oaL">
+                                <rect key="frame" x="143" y="585.5" width="128" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GO TO YELLOW"/>
+                                <connections>
+                                    <segue destination="xyY-lB-CEL" kind="show" id="prh-zH-4De"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="Qfr-jL-xGJ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="0la-5F-gqC"/>
+                            <constraint firstItem="Qfr-jL-xGJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.664251" id="3it-J2-TrI"/>
+                            <constraint firstItem="Qfr-jL-xGJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4eU-QD-d84"/>
+                            <constraint firstItem="t3X-cC-oaL" firstAttribute="top" secondItem="Qfr-jL-xGJ" secondAttribute="bottom" constant="100" id="htg-8A-Q9Z"/>
+                            <constraint firstItem="Qfr-jL-xGJ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0234375" id="okf-2i-7Av"/>
+                            <constraint firstItem="t3X-cC-oaL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vme-lN-xCl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UgM-3K-ZJy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847.82608695652175" y="97.767857142857139"/>
+        </scene>
+        <!--Yellow View Controller-->
+        <scene sceneID="jUf-Rf-LLU">
+            <objects>
+                <viewController id="xyY-lB-CEL" customClass="YellowViewController" customModule="PreventScreenShot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zsZ-lN-6Pe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIDE ME WHEN THEY TAKE PHOTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PP-JP-Smp">
+                                <rect key="frame" x="69.5" y="464.5" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Elg-P9-4c6">
+                                <rect key="frame" x="20" y="585.5" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GO TO PURPLE"/>
+                                <connections>
+                                    <action selector="goToPurple:" destination="xyY-lB-CEL" eventType="touchUpInside" id="sFY-Ug-ECb"/>
+                                    <segue destination="rzA-8h-ajq" kind="show" id="uyI-YV-mOe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="g5e-mc-eS4"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="2PP-JP-Smp" firstAttribute="height" secondItem="zsZ-lN-6Pe" secondAttribute="height" multiplier="0.0234375" id="BtS-e8-aNT"/>
+                            <constraint firstItem="2PP-JP-Smp" firstAttribute="centerY" secondItem="g5e-mc-eS4" secondAttribute="centerY" id="Da4-7h-Pdi"/>
+                            <constraint firstItem="2PP-JP-Smp" firstAttribute="width" secondItem="zsZ-lN-6Pe" secondAttribute="width" multiplier="0.664251" id="hKp-vM-yFe"/>
+                            <constraint firstItem="g5e-mc-eS4" firstAttribute="trailing" secondItem="Elg-P9-4c6" secondAttribute="trailing" constant="20" id="jBU-gB-OZr"/>
+                            <constraint firstItem="Elg-P9-4c6" firstAttribute="leading" secondItem="g5e-mc-eS4" secondAttribute="leading" constant="20" id="xGc-8c-FSA"/>
+                            <constraint firstItem="2PP-JP-Smp" firstAttribute="centerX" secondItem="g5e-mc-eS4" secondAttribute="centerX" id="yjQ-cE-ZOw"/>
+                            <constraint firstItem="Elg-P9-4c6" firstAttribute="top" secondItem="2PP-JP-Smp" secondAttribute="bottom" constant="100" id="zQb-86-UYC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jse-1P-4PZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJc-po-UXL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713.0434782608697" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mjx-yw-BwN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lb8-qF-dMn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v5J-fr-ctX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ykB-GL-1NO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Kg-Uh-iNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62.318840579710148" y="97.767857142857139"/>
+        </scene>
+        <!--Purple View Controller-->
+        <scene sceneID="pbI-r8-ABu">
+            <objects>
+                <viewController id="rzA-8h-ajq" customClass="PurpleViewController" customModule="PreventScreenShot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a0a-Xk-Sv1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIDE ME WHEN THEY TAKE PHOTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jW-D0-8FA">
+                                <rect key="frame" x="69.5" y="464.5" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="g41-0E-T3u"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="1jW-D0-8FA" firstAttribute="width" secondItem="a0a-Xk-Sv1" secondAttribute="width" multiplier="0.664251" id="Gwg-t5-BEW"/>
+                            <constraint firstItem="1jW-D0-8FA" firstAttribute="height" secondItem="a0a-Xk-Sv1" secondAttribute="height" multiplier="0.0234375" id="g2W-R5-x7c"/>
+                            <constraint firstItem="1jW-D0-8FA" firstAttribute="centerX" secondItem="g41-0E-T3u" secondAttribute="centerX" id="h0F-YX-23y"/>
+                            <constraint firstItem="1jW-D0-8FA" firstAttribute="centerY" secondItem="g41-0E-T3u" secondAttribute="centerY" id="u4a-yS-Key"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MCv-Tv-JzX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mbf-d2-2Zg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2691" y="109"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288AA3E7A8BE10D4C444A536A1FC29DC /* Pods-PreventScreenShot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D293D7466E5DAF8ABD08EADF86E0069D /* Pods-PreventScreenShot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B18E73D2AE4F19B96B14C141801CED /* Pods-PreventScreenShot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5093007BDF46542081A53CD96FA3F878 /* Pods-PreventScreenShot-dummy.m */; };
+		5F05132A23D78DD8B5E69CF252110FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B738EB1E9A843228960F52D6EC99FE7 /* ScreenProtectorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AFB490B9CC9F228EFA4794B0D8A83 /* ScreenProtectorKit-dummy.m */; };
+		A47B0345C8BF778AE0697B164FF69488 /* ScreenProtectorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBC4580C4FC6DEF91855E2FBF33BD7D /* ScreenProtectorKit.swift */; };
+		C167F645C862F0C37569CB1F5753D835 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A23450E8C2C2CFBC297D9D32665C8 /* UIColor+Extension.swift */; };
+		DA80E18547140118F8C8F75D27C582CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FDE0D44B4F9ACF1CE8163B91B08DC1F8 /* ScreenProtectorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3F09C52AE0F6A0991EABFAB5A87C14 /* ScreenProtectorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91142E0BAADCA7CDCEAC572F5681D140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71674E16828BC317920FC9976CD4D9CF;
+			remoteInfo = ScreenProtectorKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		203F749C0672A762B53FC91CD9A9450F /* ScreenProtectorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenProtectorKit.debug.xcconfig; sourceTree = "<group>"; };
+		31D2EEDDA85FB5D15F10999F1D4FB623 /* ScreenProtectorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenProtectorKit.modulemap; sourceTree = "<group>"; };
+		4D3F09C52AE0F6A0991EABFAB5A87C14 /* ScreenProtectorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenProtectorKit-umbrella.h"; sourceTree = "<group>"; };
+		502BA16722C76946C584A3CDC8979C6F /* ScreenProtectorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenProtectorKit-Info.plist"; sourceTree = "<group>"; };
+		5093007BDF46542081A53CD96FA3F878 /* Pods-PreventScreenShot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreventScreenShot-dummy.m"; sourceTree = "<group>"; };
+		51AF2129CEC17A7F4629CA67A40077CC /* Pods-PreventScreenShot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreventScreenShot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		765EF1882E3E0D07E0DB269D8BC26C0E /* ScreenProtectorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenProtectorKit.release.xcconfig; sourceTree = "<group>"; };
+		7915F827469350F57F6E2EBC659484E9 /* Pods-PreventScreenShot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreventScreenShot.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBC4580C4FC6DEF91855E2FBF33BD7D /* ScreenProtectorKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenProtectorKit.swift; path = Sources/ScreenProtectorKit/ScreenProtectorKit.swift; sourceTree = "<group>"; };
+		9695C73A863DC7E53CB2E6B46CA0630C /* ScreenProtectorKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScreenProtectorKit; path = ScreenProtectorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD5200D5CA15A78AA04AACD19BEBDBB6 /* Pods-PreventScreenShot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreventScreenShot.release.xcconfig"; sourceTree = "<group>"; };
+		AFBA4C8C6AD3F504ED0916CF6BAF125A /* Pods-PreventScreenShot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreventScreenShot-frameworks.sh"; sourceTree = "<group>"; };
+		B97671562031EFFC6B1D3E1D092C702F /* Pods-PreventScreenShot */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PreventScreenShot"; path = Pods_PreventScreenShot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7A23450E8C2C2CFBC297D9D32665C8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Sources/ScreenProtectorKit/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C0CEB3B1D35D282DC9A86AB462202C90 /* Pods-PreventScreenShot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreventScreenShot-Info.plist"; sourceTree = "<group>"; };
+		C14AFB490B9CC9F228EFA4794B0D8A83 /* ScreenProtectorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenProtectorKit-dummy.m"; sourceTree = "<group>"; };
+		D293D7466E5DAF8ABD08EADF86E0069D /* Pods-PreventScreenShot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreventScreenShot-umbrella.h"; sourceTree = "<group>"; };
+		DF0D0A717E8F625AF66638B1B8281117 /* Pods-PreventScreenShot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreventScreenShot-acknowledgements.plist"; sourceTree = "<group>"; };
+		E429549B07E18E04F6AB6D34F458DBAD /* Pods-PreventScreenShot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreventScreenShot.modulemap"; sourceTree = "<group>"; };
+		FCC1053AD3B41CA443813E98055E7EE8 /* ScreenProtectorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenProtectorKit-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51D8F5FFE5F1257D14CC98809D4FC1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA80E18547140118F8C8F75D27C582CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560E1EF045A5CF6BBF3A258FB2F864A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F05132A23D78DD8B5E69CF252110FC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B387FDB08F1C435C5EC295CA34DCAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D298407FA5A513E70262F8824459CD /* Pods-PreventScreenShot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		409043FA3A01A31C302F8618D8C5ED68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31D2EEDDA85FB5D15F10999F1D4FB623 /* ScreenProtectorKit.modulemap */,
+				C14AFB490B9CC9F228EFA4794B0D8A83 /* ScreenProtectorKit-dummy.m */,
+				502BA16722C76946C584A3CDC8979C6F /* ScreenProtectorKit-Info.plist */,
+				FCC1053AD3B41CA443813E98055E7EE8 /* ScreenProtectorKit-prefix.pch */,
+				4D3F09C52AE0F6A0991EABFAB5A87C14 /* ScreenProtectorKit-umbrella.h */,
+				203F749C0672A762B53FC91CD9A9450F /* ScreenProtectorKit.debug.xcconfig */,
+				765EF1882E3E0D07E0DB269D8BC26C0E /* ScreenProtectorKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScreenProtectorKit";
+			sourceTree = "<group>";
+		};
+		5619D8D4A231CBFBB08915DE48C34CBF /* ScreenProtectorKit */ = {
+			isa = PBXGroup;
+			children = (
+				8EBC4580C4FC6DEF91855E2FBF33BD7D /* ScreenProtectorKit.swift */,
+				BB7A23450E8C2C2CFBC297D9D32665C8 /* UIColor+Extension.swift */,
+				409043FA3A01A31C302F8618D8C5ED68 /* Support Files */,
+			);
+			name = ScreenProtectorKit;
+			path = ScreenProtectorKit;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76AADCB7446E0ACE1AE0BFA7DED33BCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5619D8D4A231CBFBB08915DE48C34CBF /* ScreenProtectorKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				76AADCB7446E0ACE1AE0BFA7DED33BCB /* Pods */,
+				CFECF0EC3B6928A87F886098D11AF50B /* Products */,
+				33B387FDB08F1C435C5EC295CA34DCAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFECF0EC3B6928A87F886098D11AF50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B97671562031EFFC6B1D3E1D092C702F /* Pods-PreventScreenShot */,
+				9695C73A863DC7E53CB2E6B46CA0630C /* ScreenProtectorKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D298407FA5A513E70262F8824459CD /* Pods-PreventScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				E429549B07E18E04F6AB6D34F458DBAD /* Pods-PreventScreenShot.modulemap */,
+				51AF2129CEC17A7F4629CA67A40077CC /* Pods-PreventScreenShot-acknowledgements.markdown */,
+				DF0D0A717E8F625AF66638B1B8281117 /* Pods-PreventScreenShot-acknowledgements.plist */,
+				5093007BDF46542081A53CD96FA3F878 /* Pods-PreventScreenShot-dummy.m */,
+				AFBA4C8C6AD3F504ED0916CF6BAF125A /* Pods-PreventScreenShot-frameworks.sh */,
+				C0CEB3B1D35D282DC9A86AB462202C90 /* Pods-PreventScreenShot-Info.plist */,
+				D293D7466E5DAF8ABD08EADF86E0069D /* Pods-PreventScreenShot-umbrella.h */,
+				7915F827469350F57F6E2EBC659484E9 /* Pods-PreventScreenShot.debug.xcconfig */,
+				AD5200D5CA15A78AA04AACD19BEBDBB6 /* Pods-PreventScreenShot.release.xcconfig */,
+			);
+			name = "Pods-PreventScreenShot";
+			path = "Target Support Files/Pods-PreventScreenShot";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		711BE96CC5A9B9BD84E97478A29FC19F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288AA3E7A8BE10D4C444A536A1FC29DC /* Pods-PreventScreenShot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10C4A54D329298ABE231CBA86D3AFFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE0D44B4F9ACF1CE8163B91B08DC1F8 /* ScreenProtectorKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14FACDB8912EBB79C2CC6E76756B13DA /* Pods-PreventScreenShot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A327ADB30EA7928554A02DA9DEEA14 /* Build configuration list for PBXNativeTarget "Pods-PreventScreenShot" */;
+			buildPhases = (
+				711BE96CC5A9B9BD84E97478A29FC19F /* Headers */,
+				5CFB5DBA68258187FC9369011996CFF7 /* Sources */,
+				560E1EF045A5CF6BBF3A258FB2F864A0 /* Frameworks */,
+				B70DC7BFB48795E2FB66B8B9C600E7D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3B541CD8A4AC64F944ABE6B972A9B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-PreventScreenShot";
+			productName = Pods_PreventScreenShot;
+			productReference = B97671562031EFFC6B1D3E1D092C702F /* Pods-PreventScreenShot */;
+			productType = "com.apple.product-type.framework";
+		};
+		71674E16828BC317920FC9976CD4D9CF /* ScreenProtectorKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DB2734A86157A6066A27B12EE68958 /* Build configuration list for PBXNativeTarget "ScreenProtectorKit" */;
+			buildPhases = (
+				E10C4A54D329298ABE231CBA86D3AFFA /* Headers */,
+				F2D9A4F1D35B32D572D8EDA6F9092A94 /* Sources */,
+				51D8F5FFE5F1257D14CC98809D4FC1E6 /* Frameworks */,
+				C6687B13AABEF782FDFC1AB84918BDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenProtectorKit;
+			productName = ScreenProtectorKit;
+			productReference = 9695C73A863DC7E53CB2E6B46CA0630C /* ScreenProtectorKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CFECF0EC3B6928A87F886098D11AF50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14FACDB8912EBB79C2CC6E76756B13DA /* Pods-PreventScreenShot */,
+				71674E16828BC317920FC9976CD4D9CF /* ScreenProtectorKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B70DC7BFB48795E2FB66B8B9C600E7D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B13AABEF782FDFC1AB84918BDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFB5DBA68258187FC9369011996CFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B18E73D2AE4F19B96B14C141801CED /* Pods-PreventScreenShot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D9A4F1D35B32D572D8EDA6F9092A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47B0345C8BF778AE0697B164FF69488 /* ScreenProtectorKit.swift in Sources */,
+				8B738EB1E9A843228960F52D6EC99FE7 /* ScreenProtectorKit-dummy.m in Sources */,
+				C167F645C862F0C37569CB1F5753D835 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B3B541CD8A4AC64F944ABE6B972A9B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScreenProtectorKit;
+			target = 71674E16828BC317920FC9976CD4D9CF /* ScreenProtectorKit */;
+			targetProxy = 91142E0BAADCA7CDCEAC572F5681D140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C45760D29D37BE4E879D9354FE9F703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5200D5CA15A78AA04AACD19BEBDBB6 /* Pods-PreventScreenShot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreventScreenShot/Pods-PreventScreenShot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreventScreenShot/Pods-PreventScreenShot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BA99545EE01F9A0D1934063BA6680B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765EF1882E3E0D07E0DB269D8BC26C0E /* ScreenProtectorKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenProtectorKit/ScreenProtectorKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenProtectorKit/ScreenProtectorKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenProtectorKit/ScreenProtectorKit.modulemap";
+				PRODUCT_MODULE_NAME = ScreenProtectorKit;
+				PRODUCT_NAME = ScreenProtectorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B48F307770AC6063C8EDC13F3763A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		828E9E93DAF9E183B089014477E47D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA33CA14AC4BF66E8DBEE003F3AE3A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203F749C0672A762B53FC91CD9A9450F /* ScreenProtectorKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenProtectorKit/ScreenProtectorKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenProtectorKit/ScreenProtectorKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenProtectorKit/ScreenProtectorKit.modulemap";
+				PRODUCT_MODULE_NAME = ScreenProtectorKit;
+				PRODUCT_NAME = ScreenProtectorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F88458C2808E4664E0786B5EFC0AA176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7915F827469350F57F6E2EBC659484E9 /* Pods-PreventScreenShot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreventScreenShot/Pods-PreventScreenShot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreventScreenShot/Pods-PreventScreenShot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A327ADB30EA7928554A02DA9DEEA14 /* Build configuration list for PBXNativeTarget "Pods-PreventScreenShot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88458C2808E4664E0786B5EFC0AA176 /* Debug */,
+				1C45760D29D37BE4E879D9354FE9F703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828E9E93DAF9E183B089014477E47D9B /* Debug */,
+				6B48F307770AC6063C8EDC13F3763A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DB2734A86157A6066A27B12EE68958 /* Build configuration list for PBXNativeTarget "ScreenProtectorKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA33CA14AC4BF66E8DBEE003F3AE3A94 /* Debug */,
+				4BA99545EE01F9A0D1934063BA6680B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

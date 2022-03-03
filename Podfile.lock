@@ -1,0 +1,16 @@
+PODS:
+  - ScreenProtectorKit (1.2.0)
+
+DEPENDENCIES:
+  - ScreenProtectorKit
+
+SPEC REPOS:
+  trunk:
+    - ScreenProtectorKit
+
+SPEC CHECKSUMS:
+  ScreenProtectorKit: 823e5b0342eea5acd7e9b8d92956a5a7f9c2ce40
+
+PODFILE CHECKSUM: 156735e332ceb757c8b1ada8d6fb498aeb794ccf
+
+COCOAPODS: 1.11.2
