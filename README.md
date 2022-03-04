@@ -1,7 +1,7 @@
 # PreventScreenShot
 This respository is about how to prevent user taking a screen shot from iOS application. 
 - To use pod 'ScreenProtectorKit' to prevent screen shot from user for the whole app. See code at Scene Delegate
-- To use some layer covert some filed when user take a scree shot. See code at RedViewController
+- To use a layer cover some fileds when user take a scree shot. See code at RedViewController
 
 ## Sources
  - https://github.com/prongbang/ScreenProtectorKit
